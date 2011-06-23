@@ -64,7 +64,7 @@ class Upload
         }
 
         if (isset($config['filename'])) {
-            $fileName = $config['fileName'];
+            $fileName = $config['filename'];
         } else {
             $fileName = null;
         }
